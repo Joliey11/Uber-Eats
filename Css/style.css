@@ -1,0 +1,187 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-left: 25px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5px;
+ }
+
+nav img{
+    width: 25px;
+    height: 30px;
+    padding: 4px;
+    margin: auto 15px;
+}
+
+h2{
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+nav img:hover{
+border: 1px solid  rgb(240, 239, 239);
+border-radius: 50px;
+background-color: rgb(240, 239, 239);
+cursor: pointer;
+}
+
+.highlight{
+    font-style: italic;
+    font-family: sans-serif;
+    padding-right: 5px;
+}
+
+.right{
+    padding-left: 77%;
+}
+
+.logs{
+    border: 1px solid #fff ;
+    font-size: 14px;
+    font-weight: 590;
+    border-radius: 550px;
+    background:#ffffff;
+    color: black;
+    margin-right: 10px;
+    width: 70px;
+    height: 36px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.04);
+    cursor: pointer;
+}
+
+.logs:hover{
+    background-color: beige;
+}
+
+.sign{
+    border: 1px solid black;
+    font-size: 14px;
+    font-weight: 590;
+    border-radius: 300px;
+    background:black;
+    color: #fff;
+    height: 36px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1),
+    0px 4px 4px rgba(0, 0, 0, 0.04);
+    cursor: pointer;
+}
+
+.sign:hover{
+    opacity: .85;
+}
+
+h1{
+    display: block;
+    color: black;
+    margin: 0px auto;
+    margin-top: 200px;
+    font-size: 310%;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.addressBox{
+    width: 580px;
+    position: relative;
+    margin-top: 8px;
+    text-align: start;
+}
+
+.firstbox{
+    display: block;
+    border: solid whitesmoke;
+    font-size: 16px;
+    font-weight: 550;
+    padding: 16px;
+    padding-left: 50px;
+    border-radius: 1px;
+    width: 78%;
+}
+
+.location-icon{
+    width: 20px;
+    position: absolute;
+    top: 18px;
+    left: 20px;
+}
+
+.deliverBox{
+    width: 290px;
+    position: relative;
+    bottom: 55px;
+    padding-left: 530px;
+}
+
+.secondbox{
+    display: block;
+    border: solid whitesmoke;
+    font-size: 16px;
+    padding: 16px;
+    padding-left: 50px;
+    width: 45%;
+    cursor: pointer;
+}
+
+.clock-icon{
+    width: 20px;
+    position: absolute;
+    margin-top: 19px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.arrow-icon{
+    width: 12px;
+    position: relative;
+    bottom: 36px;
+    left: 160px;
+    cursor: pointer;
+}
+
+.secondbox::placeholder{
+    color: black;
+    cursor: pointer;
+}
+
+.search{
+   position: relative;
+   bottom: 127px;
+   margin-left: 740px;
+}
+
+button{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    height: 56px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 9px;
+    background: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: .85;
+}
+
+.signIn a{
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+}
+
+    
+
+
+    
+
+
+    
